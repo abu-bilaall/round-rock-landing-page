@@ -1,0 +1,11 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    height: 840px;
+    background-image: url(./images/header-bg.jpeg);
+    color: white;
+}
