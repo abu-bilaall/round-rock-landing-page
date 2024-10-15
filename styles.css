@@ -1,11 +1,67 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
     height: 840px;
     background-image: url(./images/header-bg.jpeg);
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.company-name-logo img {
+    width: 78px;
+    height: 84px;
+}
+
+.company-name-logo {
+    display: flex;
+    gap: 12px;
+}
+
+.first-line {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.second-line {
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.tagline {
+    width: 374px;
+    height: 64px;
+    margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 32px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.message {
+    font-weight: 900px;
+    font-size: 144px;
+    width: 983px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.help {
+    color: #48924F;
+    width: 180px;
+    height: 70px;
+    border-radius: 35px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
 }
