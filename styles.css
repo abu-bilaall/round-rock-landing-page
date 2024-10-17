@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
 }
 
 .header {
@@ -50,7 +51,7 @@ body {
 
 .message {
     font-weight: 900px;
-    font-size: 144px;
+    font-size: 120px;
     width: 983px;
     text-align: center;
     margin-bottom: 16px;
@@ -58,10 +59,188 @@ body {
 
 .help {
     color: #48924F;
+    background-color: white;
     width: 180px;
     height: 70px;
     border-radius: 35px;
     border: none;
     font-size: 18px;
     font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    font-weight: 800;
+    font-size: 64px;
+    color: #828282;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 16px;
+    /* position: absolute; */
+
+}
+
+.services-modals {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.service-01, .service-02, .service-03 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+    width: 385px;
+    height: 504px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-images {
+    width: 385px;
+    height: 290px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: auto;
+}
+
+.service-text {
+    padding: 16px;
+    color: #0d4d14;
+
+}
+
+.help-center {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.about-us-container {
+    background-image: url(./images/content-bg.jpeg);
+    height: 732px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.about-us {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.about-text {
+    width: 360px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.testimonial-card {
+    display: flex;
+    align-items: center;
+    flex: auto;
+    width: 577px;
+    height: 233px;
+    gap: 12px;
+    border: 1px solid #6cb981;
+    border-radius: 35px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.customer-picture img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.customer-name, .rating {
+    color: #6cb981;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.customer-message {
+    color: #0d4c14;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: 577px 577px;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.idk {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.bg {
+    width: 374px;
+    height: 56px;
+    border: none;
+    border-radius: 35px;
+    background-color: #9fdea9;
+}
+
+.outline {
+    width: 168px;
+    height: 56px;
+    border: 3px solid #4db96b;
+    border-radius: 35px;
+}
+
+.moar-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-contents {
+    background-color: whitesmoke;
+    height: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 32px;
+}
+
+.footer {
+    height: 145px;
+    background-color: #324b29;
+}
+
+.email, .phone, .address {
+    display: flex;
+    gap: 8px;
+}
+
+.icons {
+    width: 18px;
+    height: auto;
 }
